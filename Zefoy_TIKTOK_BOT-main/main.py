@@ -149,7 +149,7 @@ class Zefoy:
 			try:
 				ctypes.windll.kernel32.SetConsoleTitleA(self.text.encode())
 				video_info = self.get_video_info()
-				self.text = f"By @flowside | Views: {video_info['viewCount']} | Likes: {video_info['likeCount']} | Comments: {video_info['commentCount']} | Shares: {video_info['shareCount']}"
+				self.text = f"By @Kawel | Views: {video_info['viewCount']} | Likes: {video_info['likeCount']} | Comments: {video_info['commentCount']} | Shares: {video_info['shareCount']}"
 			except: pass
 			time.sleep(5)
 
